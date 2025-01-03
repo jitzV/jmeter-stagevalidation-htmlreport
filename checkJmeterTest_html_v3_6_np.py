@@ -93,7 +93,7 @@ if not os.path.exists(jtl_file_dir):
     sys.exit(1)
 
 # Get all JTL files in the directory
-jtl_files = [f for f in os.listdir(jtl_file_dir) if f.endswith('.jtl')]
+jtl_files = [f for f in os.listdir(jtl_file_dir) if f.endswith('.jtl') or f.endswith('.csv')]
 
 if not jtl_files:
     logging.error(f"Error: No JTL files found in directory {jtl_file_dir}")
