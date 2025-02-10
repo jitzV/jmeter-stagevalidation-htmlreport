@@ -1,26 +1,2 @@
-Set the env variables before running test
-
-Windows
-
-#run in commmand prompt
-setx GoogleMap_Add_Api.TPS 2.0
-setx GoogleMap_Add_Api.ErrorRate 0.05
-setx GoogleMap_Update_Api.TPS 3.0
-setx GoogleMap_Update_Api.ErrorRate 0.70
-setx GoogleMap_Delete_Api.TPS 1.5
-setx GoogleMap_Delete_Api.ErrorRate 0.03
-#setx JTL_FILE_DIR "D:\\_MyLearnings\\PycharmProjects\\12_readfrom_env"
-setx JTL_FILE_DIR "D:/_MyLearnings/PycharmProjects/12_readfrom_env"
-setx JTL_FILE_NAME "results.jtl"
-
-Linux
-
-export GoogleMap_Add_Api.TPS=2.0
-export JTL_FILE_DIR="/path/to/jtl"
-export JTL_FILE_NAME="results.jtl"
-
-To verify
-
-Windows - set
-Linux - printenv or env
-
+pandas
+numpy
