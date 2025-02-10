@@ -42,7 +42,7 @@ set JTL_THRESHOLD_PCT=10
 ```
 
 
-# Run unit test - 
+# Run unit test
 python -m unittest discover -s /d:/_MyLearnings/PycharmProjects/14_PythonJmeterProject/tests
 
 # Run program
